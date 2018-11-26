@@ -2,8 +2,8 @@
 #--------- To open the Browser with Respective URL and Browser Opted.
 *** Settings ***
 Library         SeleniumLibrary
-Resource        ../Generic_Keywords/GenericLibrary.robot
-Resource        ../DSA_Keywords/DSAFunctions.robot
+Resource        ../KeyWords_Library/Generic_Keywords/GenericLibrary.robot
+Resource        ../KeyWords_Library/DSA_Keywords/DSAFunctions.robot
 Variables       ../DSA_InputDataStore/GenericData.py
 Variables       ../DSA_InputDataStore/DSA_Data.py
 

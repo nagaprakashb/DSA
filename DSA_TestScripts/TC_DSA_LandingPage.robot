@@ -13,6 +13,7 @@ Variables       ../DSA_InputDataStore/DSA_Data.py
 
 
 *** Test Cases ***
+    [Setup]     TC_Open_Browser.robot
 Get Text Of the Menu
      ${ElementsCount}=       Get Count of ElementLocator        ${Xpath_LandingPageTabPath}
      @{TabNames}=      Get text of Tabs        ${ElementsCount}
