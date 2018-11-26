@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4fb3bc94-ced1-49e6-82ec-3705ea43b435" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DSA_TestScripts/TC_DSA_LandingPage.robot" afterPath="$PROJECT_DIR$/DSA_TestScripts/TC_DSA_LandingPage.robot" />
-      <change beforePath="$PROJECT_DIR$/DSA_TestScripts/TC_Open_Browser.robot" afterPath="$PROJECT_DIR$/DSA_TestScripts/TC_Open_Browser.robot" />
-      <change beforePath="$PROJECT_DIR$/log.html" afterPath="$PROJECT_DIR$/log.html" />
-      <change beforePath="$PROJECT_DIR$/output.xml" afterPath="$PROJECT_DIR$/output.xml" />
-      <change beforePath="$PROJECT_DIR$/report.html" afterPath="$PROJECT_DIR$/report.html" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -248,6 +243,14 @@
       <option name="presentableId" value="Default" />
       <updated>1542113733423</updated>
     </task>
+    <task id="LOCAL-00001" summary="Reset Head">
+      <created>1543224470029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543224470029</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -276,6 +279,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Reset Head" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reset Head" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
