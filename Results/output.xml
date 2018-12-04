@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20181126 17:16:24.679">
+<suite id="s1" name="TC DSA SafeMilesBonus" source="E:\Drive\Nagaprakash\D Drive\RoboDSA\DSA_TestScripts\TC_DSA_SafeMilesBonus.robot">
+<test id="s1-t1" name="[Setup]">
+<kw name="Open the Browser" library="GenericLibrary">
+<kw name="${Brow} IN [ @{Browser_Option} ]" type="for">
+<kw name="${Brow} = gc" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Brow}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:24.841" level="INFO">gc</msg>
+<status status="PASS" starttime="20181126 17:16:24.841" endtime="20181126 17:16:24.841"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${Brow}</arg>
+</arguments>
+<assign>
+<var>${Browsr}</var>
+</assign>
+<msg timestamp="20181126 17:16:24.841" level="INFO">${Browsr} = gc</msg>
+<status status="PASS" starttime="20181126 17:16:24.841" endtime="20181126 17:16:24.841"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Browsr}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:24.841" level="INFO">gc</msg>
+<status status="PASS" starttime="20181126 17:16:24.841" endtime="20181126 17:16:24.841"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>&amp;{Browser_Option}[${Brow}]</arg>
+</arguments>
+<assign>
+<var>${BrowserVal}</var>
+</assign>
+<msg timestamp="20181126 17:16:24.841" level="INFO">${BrowserVal} = Y</msg>
+<status status="PASS" starttime="20181126 17:16:24.841" endtime="20181126 17:16:24.841"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Browsr}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:24.841" level="INFO">gc</msg>
+<status status="PASS" starttime="20181126 17:16:24.841" endtime="20181126 17:16:24.841"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${BrowserVal}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:24.841" level="INFO">Y</msg>
+<status status="PASS" starttime="20181126 17:16:24.841" endtime="20181126 17:16:24.841"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${BrowserVal}' == 'Y'</arg>
+<arg>open browser</arg>
+<arg>${Url_Open}</arg>
+<arg>${Browsr}</arg>
+<arg>ELSE</arg>
+<arg>log to console</arg>
+<arg>Browser is not enabled to test</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${Url_Open}</arg>
+<arg>${Browsr}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:24.841" level="INFO">Opening browser 'gc' to base url 'https://v7iq7:Elephant@9@mysit.gfs.com/driverSafety/#/'.</msg>
+<status status="PASS" starttime="20181126 17:16:24.841" endtime="20181126 17:16:42.111"></status>
+</kw>
+<status status="PASS" starttime="20181126 17:16:24.841" endtime="20181126 17:16:42.111"></status>
+</kw>
+<status status="PASS" starttime="20181126 17:16:24.841" endtime="20181126 17:16:42.111"></status>
+</kw>
+<kw name="${Brow} = ie" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Brow}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:42.112" level="INFO">ie</msg>
+<status status="PASS" starttime="20181126 17:16:42.111" endtime="20181126 17:16:42.112"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${Brow}</arg>
+</arguments>
+<assign>
+<var>${Browsr}</var>
+</assign>
+<msg timestamp="20181126 17:16:42.112" level="INFO">${Browsr} = ie</msg>
+<status status="PASS" starttime="20181126 17:16:42.112" endtime="20181126 17:16:42.112"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Browsr}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:42.112" level="INFO">ie</msg>
+<status status="PASS" starttime="20181126 17:16:42.112" endtime="20181126 17:16:42.112"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>&amp;{Browser_Option}[${Brow}]</arg>
+</arguments>
+<assign>
+<var>${BrowserVal}</var>
+</assign>
+<msg timestamp="20181126 17:16:42.113" level="INFO">${BrowserVal} = N</msg>
+<status status="PASS" starttime="20181126 17:16:42.112" endtime="20181126 17:16:42.113"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Browsr}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:42.113" level="INFO">ie</msg>
+<status status="PASS" starttime="20181126 17:16:42.113" endtime="20181126 17:16:42.113"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${BrowserVal}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:42.113" level="INFO">N</msg>
+<status status="PASS" starttime="20181126 17:16:42.113" endtime="20181126 17:16:42.113"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${BrowserVal}' == 'Y'</arg>
+<arg>open browser</arg>
+<arg>${Url_Open}</arg>
+<arg>${Browsr}</arg>
+<arg>ELSE</arg>
+<arg>log to console</arg>
+<arg>Browser is not enabled to test</arg>
+</arguments>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Browser is not enabled to test</arg>
+</arguments>
+<status status="PASS" starttime="20181126 17:16:42.114" endtime="20181126 17:16:42.114"></status>
+</kw>
+<status status="PASS" starttime="20181126 17:16:42.113" endtime="20181126 17:16:42.114"></status>
+</kw>
+<status status="PASS" starttime="20181126 17:16:42.111" endtime="20181126 17:16:42.114"></status>
+</kw>
+<kw name="${Brow} = ff" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Brow}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:42.114" level="INFO">ff</msg>
+<status status="PASS" starttime="20181126 17:16:42.114" endtime="20181126 17:16:42.115"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${Brow}</arg>
+</arguments>
+<assign>
+<var>${Browsr}</var>
+</assign>
+<msg timestamp="20181126 17:16:42.116" level="INFO">${Browsr} = ff</msg>
+<status status="PASS" starttime="20181126 17:16:42.115" endtime="20181126 17:16:42.116"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Browsr}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:42.116" level="INFO">ff</msg>
+<status status="PASS" starttime="20181126 17:16:42.116" endtime="20181126 17:16:42.116"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>&amp;{Browser_Option}[${Brow}]</arg>
+</arguments>
+<assign>
+<var>${BrowserVal}</var>
+</assign>
+<msg timestamp="20181126 17:16:42.116" level="INFO">${BrowserVal} = N</msg>
+<status status="PASS" starttime="20181126 17:16:42.116" endtime="20181126 17:16:42.116"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Browsr}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:42.116" level="INFO">ff</msg>
+<status status="PASS" starttime="20181126 17:16:42.116" endtime="20181126 17:16:42.116"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${BrowserVal}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:42.116" level="INFO">N</msg>
+<status status="PASS" starttime="20181126 17:16:42.116" endtime="20181126 17:16:42.116"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${BrowserVal}' == 'Y'</arg>
+<arg>open browser</arg>
+<arg>${Url_Open}</arg>
+<arg>${Browsr}</arg>
+<arg>ELSE</arg>
+<arg>log to console</arg>
+<arg>Browser is not enabled to test</arg>
+</arguments>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Browser is not enabled to test</arg>
+</arguments>
+<status status="PASS" starttime="20181126 17:16:42.117" endtime="20181126 17:16:42.117"></status>
+</kw>
+<status status="PASS" starttime="20181126 17:16:42.116" endtime="20181126 17:16:42.117"></status>
+</kw>
+<status status="PASS" starttime="20181126 17:16:42.114" endtime="20181126 17:16:42.118"></status>
+</kw>
+<status status="PASS" starttime="20181126 17:16:24.841" endtime="20181126 17:16:42.118"></status>
+</kw>
+<status status="PASS" starttime="20181126 17:16:24.841" endtime="20181126 17:16:42.118"></status>
+</kw>
+<status status="PASS" starttime="20181126 17:16:24.841" endtime="20181126 17:16:42.118" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Maximize the Browser Window">
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20181126 17:16:42.121" endtime="20181126 17:16:43.268"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20181126 17:16:48.272" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20181126 17:16:43.269" endtime="20181126 17:16:48.273"></status>
+</kw>
+<status status="PASS" starttime="20181126 17:16:42.120" endtime="20181126 17:16:48.274" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Run keyword if">
+<kw name="Variable Should Exist" library="BuiltIn">
+<doc>Fails unless the given variable exists within the current scope.</doc>
+<arguments>
+<arg>${Xpath_BonusesTab}</arg>
+<arg>Click on the Bonuses tab in DSA</arg>
+</arguments>
+<status status="PASS" starttime="20181126 17:16:48.282" endtime="20181126 17:16:48.286"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>${Xpath_BonusesTab}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:48.289" level="INFO">Clicking link '//li//a[text() ="Bonuses"]'.</msg>
+<status status="PASS" starttime="20181126 17:16:48.288" endtime="20181126 17:16:48.444"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20181126 17:16:53.445" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20181126 17:16:48.444" endtime="20181126 17:16:53.445"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181126 17:16:53.801" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181126 17:16:53.445" endtime="20181126 17:16:53.801"></status>
+</kw>
+<status status="PASS" starttime="20181126 17:16:48.279" endtime="20181126 17:16:53.801" critical="yes"></status>
+</test>
+<test id="s1-t4" name="Run keyword if">
+<kw name="Variable Should Exist" library="BuiltIn">
+<doc>Fails unless the given variable exists within the current scope.</doc>
+<arguments>
+<arg>${Xpath_RunBonusesTab}</arg>
+<arg>Click on Run Bonuses tab in Bonuses Section</arg>
+</arguments>
+<status status="PASS" starttime="20181126 17:16:53.801" endtime="20181126 17:16:53.801"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>${Xpath_RunBonusesTab}</arg>
+</arguments>
+<msg timestamp="20181126 17:16:53.801" level="INFO">Clicking link '//li//a[text()="Run Bonuses"]'.</msg>
+<status status="PASS" starttime="20181126 17:16:53.801" endtime="20181126 17:16:53.977"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20181126 17:16:58.993" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20181126 17:16:53.978" endtime="20181126 17:16:58.993"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181126 17:16:59.378" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181126 17:16:58.993" endtime="20181126 17:16:59.378"></status>
+</kw>
+<status status="PASS" starttime="20181126 17:16:53.801" endtime="20181126 17:16:59.378" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20181126 17:16:24.679" endtime="20181126 17:16:59.394"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0">Critical Tests</stat>
+<stat pass="4" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="4" fail="0" id="s1" name="TC DSA SafeMilesBonus">TC DSA SafeMilesBonus</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20181126 17:16:53.801" level="WARN">Multiple test cases with name 'Run keyword if' executed in test suite 'TC DSA SafeMilesBonus'.</msg>
+</errors>
+</robot>
