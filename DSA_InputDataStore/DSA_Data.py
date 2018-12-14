@@ -9,7 +9,7 @@ LandingPageTabs =   ['Drivers', 'Notifications', 'Reports', 'Bonuses', 'Upload',
 
 Xpath_LandingPageTabPath=   '//*[@class="navbar navbar-default"]//li//a'
 
-
+LandingPageTitle =   'Driver Safety'
 
 #--------- DSA Bonuses Tab.
 Xpath_BonusesTab =      '//li//a[text() ="Bonuses"]'
