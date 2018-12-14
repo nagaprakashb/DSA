@@ -13,7 +13,7 @@ Library     Collections
 Get text of Tabs
     [Arguments]  ${ElementCnt}
     @{ElementNames}=        create list
-    :FOR    ${Element}      IN RANGE    ${ElementCnt-1}
+    :FOR    ${Element}      IN RANGE    ${ElementCnt}
     \   ${ElementName}=    get element attribute   //*[@class="navbar navbar-default"]//li//a[@ng-click="selectTab(${Element})"]      text
     \   Append to list    ${ElementNames}    ${ElementName}
    log list     ${ElementNames}

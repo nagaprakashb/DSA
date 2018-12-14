@@ -3,5 +3,6 @@
 #--------- Project: Driver Safety Application ---------
 
 
-Browser_Option =  {'gc':'Y', 'ie':'N', 'ff':'N'}
+Browser_Option =  {'GC':'Y', 'IE':'N', 'FF':'N'}
 Url_Open = 'https://v7iq7:Elephant@9@mysit.gfs.com/driverSafety/#/'
+#Url_Open = 'https://www.google.com'
